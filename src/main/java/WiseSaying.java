@@ -10,7 +10,15 @@ public class WiseSaying {
     }
 
     public int getId() {
-        return this.id;
+        return id;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getContent() {
+        return content;
     }
 
     public String toListString() {
